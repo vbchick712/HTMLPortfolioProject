@@ -1,0 +1,100 @@
+html, body, div, h1, h2, h3, p, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin:0;
+}
+
+body {
+  background-color: #5f5f5f;
+  padding: 20px;
+}
+
+h1 {
+  margin: 20px 0 20px 0;
+  color: white;
+  text-shadow: 0 1px 2px #000;
+}
+
+h2 {
+  margin: 15px 0 15px 0;
+  color: white;
+  text-shadow: 0 1px 2px #000;
+}
+
+h3 {
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid #000000;
+  /*box-shadow: 0 1px 0 #969c8a, 0 2px 0 #fff;*/
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.header {
+  background: radial-gradient(circle 400px, #1e3e4d, #102028);
+  /*background: linear-gradient(#3e606f, #324d59);*/
+  /*background-color: #83d900;*/
+  width: 400px;
+  margin: 15px auto 15px auto;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.tagline {
+  background-color: pink;
+}
+
+.skills {
+  background-color: yellow;
+}
+
+.contact {
+  background-color: green;
+  width: 300px;
+  margin: 15px auto 15px auto;
+}
+
+.contact p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+/* Use this section when adding icons to the contact section; they will change images on hover */
+/* This is called a SPRITE */
+
+/*.linkedin, .github {
+  background: url(social.png);
+  display: block;
+  height: 100px;
+  width: 100px;
+  text-indent: -9999px;
+}
+
+.github {
+  background-position: -100px 0;
+}
+
+.linkedin:hover, .linkedin:focus {
+  background-position: 0 -100px;
+}
+
+.github:hover, .github:focus {
+  background-position: -100px -100px;
+}
+
+*/
