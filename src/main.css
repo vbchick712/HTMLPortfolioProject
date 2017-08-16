@@ -4,25 +4,29 @@ html, body, div, h1, h2, h3, p, ul, li, a {
   margin:0;
 }
 
+html {
+  /*font-size: 16px;*/
+}
+
 body {
   background-color: #5f5f5f;
   padding: 20px;
 }
 
 h1 {
-  margin: 20px 0 20px 0;
+  margin: 1em 0 1em 0;
   color: white;
   text-shadow: 0 1px 2px #000;
 }
 
 h2 {
-  margin: 15px 0 15px 0;
+  margin: 0.5em 0 0.5em 0;
   color: white;
-  text-shadow: 0 1px 2px #000;
+  text-shadow: 0 2px 4px #000;
 }
 
 h3 {
-  margin: 10px 0 10px 0;
+  margin: 0.5em 0 0.5em 0;
   border-bottom: 1px solid #000000;
   /*box-shadow: 0 1px 0 #969c8a, 0 2px 0 #fff;*/
 }
@@ -35,8 +39,8 @@ ul {
   background: radial-gradient(circle 400px, #1e3e4d, #102028);
   /*background: linear-gradient(#3e606f, #324d59);*/
   /*background-color: #83d900;*/
-  width: 400px;
-  margin: 15px auto 15px auto;
+  width:50%;
+  margin: 0.5em auto 0.5em auto;
 }
 
 .header h1 {
@@ -57,8 +61,8 @@ ul {
 
 .contact {
   background-color: green;
-  width: 300px;
-  margin: 15px auto 15px auto;
+  width: 30%;
+  margin: 0.5em auto 0.5em auto;
 }
 
 .contact p {
@@ -98,3 +102,33 @@ a:hover {
 }
 
 */
+
+
+/* #########################################################################
+          MEDIA QUERIES
+############################################################################ */
+/* <320px Mobile phone porttrait mode */
+
+/*@media screen and (max-width: 320px) {
+
+
+
+}*/
+
+
+/* <480px Mobile phone landscape mode */
+
+/*@media screen and (max-width: 480px) {
+
+
+
+
+}*/
+
+/* <768px Tablet mode */
+
+/*@media screen and (max-width: 768px) {
+
+
+
+}*/
